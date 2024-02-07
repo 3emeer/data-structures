@@ -1,0 +1,32 @@
+public class GeneralNode {
+    public int val;
+    public GeneralNode next;
+    public GeneralNode prev;
+    
+    public GeneralNode(int val)
+    {
+        this.val = val;
+        
+    }
+    
+    public GeneralNode()
+    {
+        
+        
+    }
+    
+    public GeneralNode(int val, GeneralNode next)
+    {
+        this.val = val;
+        this.next = next;
+    }
+    
+  
+    
+    public GeneralNode(int val, GeneralNode next, GeneralNode prev)
+    {
+        this.val = val;
+        this.next = next;
+        this.prev = prev;
+    }
+}
